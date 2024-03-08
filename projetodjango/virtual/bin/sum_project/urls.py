@@ -20,5 +20,6 @@ from django.urls import path
 from sum_app import views
 
 urlpatterns = [
-    path('sum', views.sum_numbers, name='sum_numbers'),
+    path('', views.result_page, name='result_page'),
+    path('average', views.average, name='average'),
 ]
